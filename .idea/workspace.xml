@@ -24,20 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NumberGame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="77" />
+            <state relative-caret-position="480">
+              <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -58,14 +58,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/NumberGame.html" />
         <option value="$PROJECT_DIR$/calculator.html" />
+        <option value="$PROJECT_DIR$/NumberGame.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="58" />
+    <option name="y" value="85" />
     <option name="width" value="1280" />
     <option name="height" value="717" />
   </component>
@@ -96,6 +95,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -124,18 +129,18 @@
       <workItem from="1554845714815" duration="111000" />
       <workItem from="1554846270126" duration="123000" />
       <workItem from="1554846417582" duration="99000" />
-      <workItem from="1554846534520" duration="807000" />
+      <workItem from="1554846534520" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1140000" />
+    <option name="totallyTimeSpent" value="2148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="58" width="1280" height="717" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22128259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -158,13 +163,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NumberGame.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -174,8 +172,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NumberGame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
     </entry>
