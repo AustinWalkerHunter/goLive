@@ -51,3 +51,10 @@ function guesser() {
         guessAmount++;
     }
 }
+
+function newGame() {
+    random = Math.floor(Math.random() * 26);
+    guessAmount = 1;
+    guessDiff = null;
+    prevGuessDiff = null;
+}

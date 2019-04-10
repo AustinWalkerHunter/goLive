@@ -21,7 +21,7 @@
         <a class="navbar-brand" href="#index.html">Example 4!</a>
     </nav>
     <div class="text-center">
-        <h1>Guess the Number Game Example</h1>
+        <h1>Guess the Number Game</h1>
         <hr/>
         <p> Guess the random number between 0 and 25. </p>
         <div class="form">
@@ -29,6 +29,9 @@
             <input type="text" id="guessInput" class="guessInput">
             <button type="submit" value="Guess" onclick="guesser()"
                    class="guessSubmit" id="guess">Guess
+            </button>
+            <button type="submit" value="newGame" onclick="newGame()"
+                    class="newGameSubmit" id="newGame">New Number
             </button>
             <br>
             <label>Hint: <span id="hint"></span></label>
