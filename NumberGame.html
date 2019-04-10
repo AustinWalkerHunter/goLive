@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="calc.js"></script>
+    <script src="NumberGame.js"></script>
     <title>Owls</title>
 </head>
 <body>
@@ -23,12 +23,15 @@
     <div class="text-center">
         <h1>Guess the Number Game Example</h1>
         <hr/>
-        <p> Guess the random number between 1 and 25. </p>
+        <p> Guess the random number between 0 and 25. </p>
         <div class="form">
             <label for="guessInput">Take a guess: </label>
-            <input type = "text" id = "guessInput" class = "guessInput">
-            <input type = "submit" value = "Guess"
-                   class = "guessSubmit" id = "guess">
+            <input type="text" id="guessInput" class="guessInput">
+            <button type="submit" value="Guess" onclick="guesser()"
+                   class="guessSubmit" id="guess">Guess
+            </button>
+            <br>
+            <label>Hint: <span id="hint"></span></label>
         </div>
     </div>
 <div class="container">
@@ -39,6 +42,7 @@
             <p> Made by the Owls </p>
         </div>
     </footer>
+</div>
 </div>
 </body>
 </html>
