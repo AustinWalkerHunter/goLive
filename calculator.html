@@ -33,40 +33,52 @@
     </div>
     <div class="container">
         <div class="row text-center">
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <h2>Addition</h2>
                 <hr/>
                 <label>First number:
-                    <input type="number" id="a" value=0></label>
+                    <input type="number" id="a" ></label>
                 <label>Second number:
-                    <input type="number" id="b" value=0></label>
-                <button type="button" onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Add</button>
+                    <input type="number" id="b" R></label>
+                <button type="button" class="btn btn-primary" id="addButton" onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Add</button>
                 <div>
-                    <label>Result = <span id="addResult"></span></label>
+                    <label><span id="addResult"></span><span id="addError"></span></label>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
+                <h2>Subtraction</h2>
+                <hr/>
+                <label>First number:
+                    <input type="number" id="c" ></label>
+                <label>Second number:
+                    <input type="number" id="d" ></label>
+                <button type="button" class="btn btn-primary" id="subButton" onclick="sub(document.getElementById('c').value,document.getElementById('d').value)">Subtract</button>
+                <div>
+                    <label><span id="subResult"></span><span id="subError"></span></label>
+                </div>
+            </div>
+            <div class="col-sm-3">
                 <h2>Multiplication</h2>
                 <hr/>
                 <label>First number:
-                    <input type="number" id="c" value=0></label>
+                    <input type="number" id="e" ></label>
                 <label>Second number:
-                    <input type="number" id="d" value=0></label>
-                <button type="button" id="addButton" onclick="multiply(document.getElementById('c').value,document.getElementById('d').value)">Add</button>
+                    <input type="number" id="f" ></label>
+                <button type="button" class="btn btn-primary" id="multButton" onclick="multiply(document.getElementById('e').value,document.getElementById('f').value)">Multiply</button>
                 <div>
-                    <label>Result = <span id="multResult"></span></label>
+                    <label><span id="multResult"></span><span id="multError"></span></label>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <h2>Division</h2>
                 <hr/>
                 <label>First number:
-                    <input type="number" id="e" value=0></label>
+                    <input type="number" id="g" ></label>
                 <label>Second number:
-                    <input type="number" id="f" value=0></label>
-                <button type="button" onclick="divide(document.getElementById('e').value,document.getElementById('f').value)">Add</button>
+                    <input type="number" id="h" ></label>
+                <button type="button" class="btn btn-primary" id="divButton" onclick="divide(document.getElementById('g').value,document.getElementById('h').value)">Divide</button>
                 <div>
-                    <label>Result = <span id="divResult"></span></label>
+                    <label><span id="divResult"></span><span id="divError"></span></label>
                 </div>
             </div>
         </div>
