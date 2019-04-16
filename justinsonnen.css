@@ -48,6 +48,7 @@
   border-radius: 10px;
   box-shadow: 0px 0px 7px rgba(66,66,66,.75);
   float: right;
+  text-align: left;
 }
 
 .select_box label {
