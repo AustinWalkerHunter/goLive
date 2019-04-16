@@ -1,4 +1,4 @@
-document.getElementById('assignmentInputForm').addEventListener('submit', saveAssignment);
+//document.getElementById('assignmentInputForm').addEventListener('submit', saveAssignment);
 
 function saveAssignment(e) {
   var assignmentDesc = document.getElementById('assignmentDescInput').value;
@@ -16,7 +16,7 @@ function saveAssignment(e) {
     dueDate: assignmentDueDate,
     progress: assignmentProgress,
     status: assignmentStatus
-  }
+  };
 
   if (localStorage.getItem('assignments') == null) {
     var assignments = [];
