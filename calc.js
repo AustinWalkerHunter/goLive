@@ -1,5 +1,5 @@
+console.log("Hello from the Console, this tool can be helpful for debugging!");
 function add(a, b){
-    console.log(a);
     if(a == "" || b == ""){
         document.getElementById('addError').innerHTML = "Please enter numbers for calculation.";
         document.getElementById('addResult').innerHTML = "";
