@@ -58,6 +58,10 @@ p{
     margin: 2%;
 }
 
+.scriptExample{
+    text-decoration: underline;
+}
+
 footer {
     position: absolute;
     bottom: 0;
