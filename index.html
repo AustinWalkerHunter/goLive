@@ -78,17 +78,20 @@
             <h2>Simple programs with build/run steps</h2>
             <ul>
                 <li>
-                    <p>The most basic Javascript example is the classic Hello world alert!
-                    The Javascript looks like this:<span class="scriptExample"> &lt;script&gt;
-                    alert( 'Hello, world!' );
-                    &lt;/script&gt;</span>
+                    <p>The most basic Javascript example is the classic Hello world console.log()!
+                    The Javascript looks like this: <span class="scriptExample">console.log("Hello World!");</span>
                     </p>
-                    <p>In order to get this affect running in your html files all you need to do is copy and paste that script
-                        from above and put it inside the &lt;body&gt &lt;/body&gt tags. Then reload your page!</p>
+                    <p>You can run this piece of Javascript code on any browser that has Javascript enabled by simply making
+                    a new Javascript file. You can name this what ever you'd like, for my example I named mine script.js.
+                        Copy and paste the code from above in that file, then create an html file named index.html. In the HTML file simply add
+                        a script by writing &lt;script src="script.js"&gt;&lt;/script&gt; Now when you run that html file locally
+                        in google chrome you can see the console log by right clicking and selecting Inspect. From here click on the
+                        tab labeled Console and your message should be there.</p>
+                    <p>- Check out the Console right now to see my message!</p> <br/>
                 </li>
                 <li>
                     <p>Another basic example of Javascript is the Javascript Event. Here is an example called onClick();</p>
-                    <p>Click this button to see what it does. <button onclick="alert('Hello, World!')">Click me!</button></p>
+                    <p>Click this button to see what it does. <button onclick="alert('Hello there! This is an alert!')">Click me!</button></p>
                     <p>The code for my the button above looks like this: &lt;button onclick="alert('Hello, World!')"&gt;Click me!&lt;/button&gt;
                     <p>The event only fires when a user clicks on the button. To build this into your html you can copy and paste
                         this button into the &lt;body&gt &lt;/body&gt tags in your html.</p>
