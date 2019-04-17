@@ -1,0 +1,99 @@
+
+#main_title {
+  font-size: 40px;
+  text-align: center;
+  width: 100%
+}
+
+
+#sub_title {
+  font-size: 25px;
+}
+
+.content_container {
+  text-align: center;
+}
+
+
+.content_box{
+  display: inline-block;
+  padding: 25px;
+  border: 25px solid navy;
+}
+
+
+.form-group {
+  text-align: left;
+  padding: 6px;
+  font-size: 29px;
+  margin: 20px;
+  text-shadow: 0px 0px 0px rgba(66,66,66,.79);   
+}
+
+
+.form-group label {
+  padding-right: 40px;
+}
+
+
+.input_box {
+  width: 550px;
+  padding: 6px;
+  font-size: 19px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px rgba(66,66,66,.75);
+  float: right;
+  text-align: left;
+}
+
+.select_box label {
+  width: 150px;
+  margin-left: 50px;
+  padding: 6px;
+  font-size: 19px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 40px;
+  box-shadow: 0px 0px 7px rgba(66,66,66,.75);
+}
+
+
+#assignmentPriorityInput {
+  margin-left: 50px;
+}
+
+.button_container {
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: navy;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  }
+
+.button:hover {
+  background-color: #1c89ff;
+  border-color: #fff;
+  transition: all .1s ease-in-out;
+  }
+
+
+.erasebutton {
+  float: right;
+}
