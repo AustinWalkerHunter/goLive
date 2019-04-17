@@ -1,2 +1,2 @@
 # CS354_goLive
-This project is to showcase Javascript and provide simple examples of the language. 
+This project's purpose is to showcase Javascript and provide simple examples of the language. It is currently being host here: http://onyx2.boisestate.edu/jbuffenb/classes/354/teams/owls/
