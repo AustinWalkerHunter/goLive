@@ -1,5 +1,3 @@
-//document.getElementById('assignmentInputForm').addEventListener('submit', saveAssignment);
-
 function saveAssignment(e) {
   var assignmentDesc = document.getElementById('assignmentDescInput').value;
   var assignmentPriority = document.getElementById('assignmentPriorityInput').value;
@@ -68,7 +66,7 @@ function fetchAssn() {
   var assignmentsList = document.getElementById('assignmentsList');
 
   assignmentsList.innerHTML = '';
-
+if(assignments != null) {
   for (var i = 0; i < assignments.length; i++) {
     var id = assignments[i].id;
     var desc = assignments[i].description;
@@ -77,15 +75,16 @@ function fetchAssn() {
     var progress = assignments[i].progress;
     var status = assignments[i].status;
 
-    assignmentsList.innerHTML +=   '<div class="well">'+
-                              '<h6>Assignment ID: ' + id + '</h6>'+
-                              '<p><span class="label label-info">' + status + '</span></p>'+
-                              '<h3>' + desc + '</h3>'+
-                              '<h5> PRIORITY:   ' + priority + '</h5>'+
-                              '<p><span class="glyphicon glyphicon-time"></span> DUE DATE:    ' + dueDate + '</p>'+
-                              '<p><span class="glyphicon glyphicon-user"></span> ' + progress + '</p>'+
-                              '<a href="#" onclick="setStatusClosed(\''+id+'\')" class="btn btn-warning">Completed</a> '+
-                              '<a href="#" onclick="deleteAssignment(\''+id+'\')" class="btn btn-danger">Delete</a>'+
-                              '</div>';
+    assignmentsList.innerHTML += '<div class="well">' +
+        '<h6>Assignment ID: ' + id + '</h6>' +
+        '<p><span class="label label-info">' + status + '</span></p>' +
+        '<h3>' + desc + '</h3>' +
+        '<h5> PRIORITY:   ' + priority + '</h5>' +
+        '<p><span class="glyphicon glyphicon-time"></span> DUE DATE:    ' + dueDate + '</p>' +
+        '<p><span class="glyphicon glyphicon-user"></span> ' + progress + '</p>' +
+        '<a href="#" onclick="setStatusClosed(\'' + id + '\')" class="btn btn-warning">Completed</a> ' +
+        '<a href="#" onclick="deleteAssignment(\'' + id + '\')" class="btn btn-danger">Delete</a>' +
+        '</div>';
   }
+}
 }
