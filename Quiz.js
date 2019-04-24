@@ -2,10 +2,12 @@ var user = "Unknown Owl";
 var score = 0;
 
 function start() {
+    document.getElementById('player').innerHTML = user;
     user = document.getElementById('username').value;
     document.getElementById('score').innerHTML = score;
     if(document.getElementById('username').value != ""){
         document.getElementById('name').innerHTML = user;
+        document.getElementById('player').innerHTML = user;
     }
     scoreBoard.style.display = "block";
     intro.style.display = "none";
@@ -70,10 +72,36 @@ function checkQ3(){
     }
 }
 function question3() {
+    var total = score/30;
+    document.getElementById('finalScore').innerHTML = score;
+
+    if(total == 1){
+        document.getElementById('grade').innerHTML = "+A";
+    }
+    else if(total <= .59){
+        document.getElementById('grade').innerHTML = "F";
+    }
+    else if(total >= .6 && total <= .69){
+        document.getElementById('grade').innerHTML = "D";
+    }
+    else if(total >= .7 && total <= .79){
+        document.getElementById('grade').innerHTML = "C";
+    }
+    else if(total >= .9 && total <= .99){
+        document.getElementById('grade').innerHTML = "A";
+    }
+    else{
+        document.getElementById('grade').innerHTML = "B";
+
+    }
+
     q3.style.display = "none";
     q4.style.display = "block";
 }
 
+function showCodeForQuiz() {
+    quizCode.style.display = "block";
+}
 // function q3sum(){
 //     var intArray = new Array(5);
 //     intArray = [2, 3, 7, 12, 1];

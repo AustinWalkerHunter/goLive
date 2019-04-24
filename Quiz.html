@@ -41,7 +41,7 @@
             <h3 class="text-center">Quiz Time!</h3>
             <p>This game will test your knowledge on JS through a series of questions. Good luck and have fun!</p><br>
             <label>Type your name: <input type="text" id="username" autocomplete="off"></label><br><br><br>
-            <button type="submit"  onclick="start()" class="btn-lg btn-primary">Start the Game!</button>
+            <button type="submit"  onclick="start()" class="btn-lg btn-primary">Start the Quiz!</button>
         </div>
 
         <div id="q1" class="text-center">
@@ -96,7 +96,7 @@
                 <h3>Questions 3:</h3>
             <p>What will be the ouput of the following program? </p><br>
             <div class="text-center quizPic">
-                <img alt="code picture" src="Q3pic.png"/>
+                <img class="quizPic" alt="code picture" src="Q3pic.png"/>
             </div>
             <label>Output: <input class="quizInput" type="text" id="check3" autocomplete="off"></label><br>
             <button type="submit"  onclick="checkQ3()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal3">Submit</button>
@@ -117,16 +117,20 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-
-
+        <div id="q4" class="text-center congratsTitle">
+            <p class="congratsTitle">Congratulations <label><span id="player"></span></label>, you Finished!</p><br>
+            <p class="scoreTitle">Final Score = <label><span id="finalScore"></span></label> out of 30.</p><br>
+            <p class="scoreTitle">Grade = <label><span id="grade"></span></label></p><br>
+            <button type="submit"  onclick="location.reload()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal3">Restart Quiz</button>
         </div>
 
     </div><br><br>
     <div class="text-center">
-        <p>Code snippet below...</p>
+        <button type="submit"  onclick="showCodeForQuiz()" class="btn-lg btn-warning" >Click for code snippet</button>
     </div>
-    <div class="text-center pic">
+    <div id="quizCode" class="text-center pic">
         <img alt="code picture" src="quizPic.png"/>
     </div>
     <footer>
