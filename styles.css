@@ -71,8 +71,20 @@ p, li{
 #q3 {
     display: none;
 }
-#q4{
+#q4 {
+    display:none;
+}
+#quizCode{
     display: none;
+}
+#calcCodePic{
+    display: none;
+}
+.congratsTitle{
+    font-size: 1.5em;
+}
+.scoreTitle{
+    font-size: 1.2em;
 }
 h3{
     margin-top: 0;
@@ -92,7 +104,7 @@ h3{
     margin-top: 2%;
 }
 .pic{
-    padding-top: 25%;
+    padding-top: 5%;
 }
 #name{
     text-decoration: underline;
@@ -105,7 +117,7 @@ h3{
     margin-right: 10%;
 
 }
-.quizpic{
+.quizPic{
     padding-bottom: 20px;
 }
 .quizInput{
@@ -117,3 +129,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+

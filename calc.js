@@ -42,3 +42,7 @@ function divide(a, b){
         document.getElementById('divError').innerHTML = "";
     }
 }
+
+function showCodeForCalc() {
+    calcCodePic.style.display = "block";
+}
