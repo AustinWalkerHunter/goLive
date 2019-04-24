@@ -84,9 +84,11 @@ p, li{
     display: none;
 }
 .congratsTitle{
-    font-size: 1.5em;
+    font-family: 'VT323', monospace;
+    font-size: 1.6em;
 }
 .scoreTitle{
+    font-family: 'VT323', monospace;
     font-size: 1.2em;
 }
 h3{
