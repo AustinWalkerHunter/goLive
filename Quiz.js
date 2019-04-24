@@ -56,7 +56,7 @@ function question2() {
 
 function checkQ3(){
     var x = document.getElementById("check3").value;
-    if(x == 25){
+    if(x == 25){   
         score += 15;
         document.getElementById('modal3').style.backgroundColor = 'rgba(0, 171, 0, 0.42)';
         document.getElementById('q3Answer').innerHTML = "Correct! +15 Points";
@@ -69,19 +69,45 @@ function checkQ3(){
         document.getElementById('q3Response').innerHTML = "Better luck next time!";
     }
 }
+
+
 function question3() {
     q3.style.display = "none";
     q4.style.display = "block";
 }
 
-// function q3sum(){
-//     var intArray = new Array(5);
-//     intArray = [2, 3, 7, 12, 1];
+function checkQ4(){
+    var v = document.getElementById("A1");
+    var u = document.getElementById("A2");
+    var x = document.getElementById("A3");
+    var y = document.getElementById("A4");
+    if(u.checked == true && v.checked == true && x.checked ==true && y.checked == true){
+        score += 15;
+        document.getElementById('modal4').style.backgroundColor = 'rgba(0, 171, 0, 0.42)';
+        document.getElementById('q4Answer').innerHTML = "Correct! +15 Points";
+        document.getElementById('q4Response').innerHTML = "Nice!";
+        document.getElementById('score').innerHTML = score;    
+    }
+    else{
+        document.getElementById('modal4').style.backgroundColor = 'rgba(255, 0, 2, 0.75)';
+        document.getElementById('q4Answer').innerHTML = "Ouch...";
+        document.getElementById('q4Response').innerHTML = "Better luck next time!";
+    }
+}
 
-//     var i;
-//     var s=0;
-//     for(i = 0; i < 5; i++){
-//         s+=intArray[i];
-//     }
-//     return s;
-// }
+function question4() {
+    q4.style.display = "none";
+    q5.style.display = "block";
+}
+
+function q3sum(){
+    var intArray = new Array(5);
+    intArray = [2, 3, 7, 12, 1];
+
+    var i;
+    var s=0;
+    for(i = 0; i < 5; i++){
+        s+=intArray[i];
+    }
+    return s;
+}

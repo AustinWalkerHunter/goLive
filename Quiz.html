@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+01#10 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -94,11 +94,11 @@
 
         <div id="q3" class="text-center">
                 <h3>Questions 3:</h3>
-            <p>What will be the value of s be? </p><br>
+            <p>What will be the ouput of the following program? </p><br>
             <div class="text-center quizPic">
                 <img alt="code picture" src="Q3pic.png"/>
             </div>
-            <label> s = <input class="quizInput" type="text" id="check3" autocomplete="off"></label><br>
+            <label>Output: <input class="quizInput" type="text" id="check3" autocomplete="off"></label><br>
             <button type="submit"  onclick="checkQ3()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal3">Submit</button>
 
             <!-- Modal -->
@@ -117,9 +117,32 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-
-
+        <div id ="q4" class="text-center">
+            <h3>Question 4: Check all true statements</h3>
+            <label>JS is a programming language</label><input type="checkbox" id="A1" value="Checkbox1"  /><br />
+            <label>Variable types don't have to be declared.</label><input type="checkbox" id="A2" value="checkbox2"  /><br />
+            <label>Reddit hates JavaScript</label><input type="checkbox" id="A3" value="checkbox3"  /><br />
+            <label>We deserve full credit yay!</label><input type="checkbox" id="A4" value="checkbox3"  /><br />
+            <button type="submit"  onclick="checkQ4()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal4">Submit</button>
+            <!-- Modal -->
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title"><span id="q4Answer"></span></h4>
+                            </div>
+                            <div class="modal-body">
+                                <span id="q4Response"></span>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit"  onclick="question4()" class="btn-lg btn-primary" data-dismiss="modal">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div><br><br>
