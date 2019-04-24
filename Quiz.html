@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+01#10 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -91,11 +91,15 @@
                 </div>
             </div>
         </div>
+
         <div id="q3" class="text-center">
-            <h3>Questions 3. </h3><br>
-            <input type="radio" name="group1" id="check3"><label>&nbsp Yes</label>&nbsp
-            <input type="radio" name="group1"><label>&nbsp No</label><br><br>
-            <button type="submit"  onclick="checkQ3()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal">Submit</button>
+                <h3>Questions 3:</h3>
+            <p>What will be the ouput of the following program? </p><br>
+            <div class="text-center quizPic">
+                <img alt="code picture" src="Q3pic.png"/>
+            </div>
+            <label>Output: <input class="quizInput" type="text" id="check3" autocomplete="off"></label><br>
+            <button type="submit"  onclick="checkQ3()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal3">Submit</button>
 
             <!-- Modal -->
             <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-hidden="true">
@@ -105,15 +109,19 @@
                             <h4 class="modal-title"><span id="q3Answer"></span></h4>
                         </div>
                         <div class="modal-body">
-                            <span id="response3"></span>
+                            <span id="q3Response"></span>
                         </div>
                         <div class="modal-footer">
-                            <button type="submit"  onclick="question2()" class="btn-lg btn-primary" data-dismiss="modal">Next</button>
+                            <button type="submit"  onclick="question3()" class="btn-lg btn-primary" data-dismiss="modal">Next</button>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
         </div>
+
     </div><br><br>
     <div class="text-center">
         <p>Code snippet below...</p>
