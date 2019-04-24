@@ -80,6 +80,9 @@ p, li{
 #calcCodePic{
     display: none;
 }
+#finished{
+    display: none;
+}
 .congratsTitle{
     font-size: 1.5em;
 }
@@ -118,7 +121,7 @@ h3{
 
 }
 .quizPic{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .quizInput{
     width: 50px;

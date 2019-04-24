@@ -74,29 +74,6 @@ function checkQ3(){
 
 
 function question3() {
-    var total = score/30;
-    document.getElementById('finalScore').innerHTML = score;
-
-    if(total == 1){
-        document.getElementById('grade').innerHTML = "+A";
-    }
-    else if(total <= .59){
-        document.getElementById('grade').innerHTML = "F";
-    }
-    else if(total >= .6 && total <= .69){
-        document.getElementById('grade').innerHTML = "D";
-    }
-    else if(total >= .7 && total <= .79){
-        document.getElementById('grade').innerHTML = "C";
-    }
-    else if(total >= .9 && total <= .99){
-        document.getElementById('grade').innerHTML = "A";
-    }
-    else{
-        document.getElementById('grade').innerHTML = "B";
-
-    }
-
     q3.style.display = "none";
     q4.style.display = "block";
 }
@@ -119,23 +96,38 @@ function checkQ4(){
         document.getElementById('q4Response').innerHTML = "Better luck next time!";
     }
 }
+function question4() {
+    done();
+    q4.style.display = "none";
+    finished.style.display = "block";
+}
+
+
+function done() {
+    var total = score/45;
+    document.getElementById('finalScore').innerHTML = score;
+
+    if(total == 1){
+        document.getElementById('grade').innerHTML = "+A";
+    }
+    else if(total <= .59){
+        document.getElementById('grade').innerHTML = "F";
+    }
+    else if(total >= .6 && total <= .69){
+        document.getElementById('grade').innerHTML = "D";
+    }
+    else if(total >= .7 && total <= .79){
+        document.getElementById('grade').innerHTML = "C";
+    }
+    else if(total >= .9 && total <= .99){
+        document.getElementById('grade').innerHTML = "A";
+    }
+    else{
+        document.getElementById('grade').innerHTML = "B";
+
+    }
+}
+
 function showCodeForQuiz() {
     quizCode.style.display = "block";
-}
-
-function question4() {
-    q4.style.display = "none";
-    q5.style.display = "block";
-}
-
-function q3sum(){
-    var intArray = new Array(5);
-    intArray = [2, 3, 7, 12, 1];
-
-    var i;
-    var s=0;
-    for(i = 0; i < 5; i++){
-        s+=intArray[i];
-    }
-    return s;
 }
