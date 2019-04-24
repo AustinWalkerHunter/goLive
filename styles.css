@@ -31,7 +31,6 @@ h1, h2{
 }
 
 
-
 input{
     text-align: right;
     border-radius: 50px;
@@ -63,10 +62,44 @@ p, li{
 #addButton, #subButton, #divButton, #multButton{
     margin: 2%;
 }
-
+#q1 {
+    display: none;
+}
+#q2 {
+    display: none;
+}
+#q3 {
+    display: none;
+}
+h3{
+    margin-top: 0;
+}
 .scriptExample{
     text-decoration: underline;
 }
+
+.bottom-space{
+    margin-bottom: 10px;
+}
+.game{
+    border: 3px solid #2e6da4;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+#name{
+    text-decoration: underline;
+}
+.username{
+    margin-left: 10%;
+
+}
+.scoreBoard{
+    margin-right: 10%;
+
+}
+
 
 footer {
     position: absolute;
