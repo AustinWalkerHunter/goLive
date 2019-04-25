@@ -83,6 +83,9 @@ p, li{
 #calcCodePic{
     display: none;
 }
+#NumberGameCode{
+    display: none;
+}
 #finished{
     display: none;
 }

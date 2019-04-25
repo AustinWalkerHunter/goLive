@@ -58,3 +58,8 @@ function newGame() {
     guessDiff = null;
     prevGuessDiff = null;
 }
+
+
+function showCodeForNumberGame() {
+    NumberGameCode.style.display = "block";
+}

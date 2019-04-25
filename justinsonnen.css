@@ -78,7 +78,7 @@
   width: 200px;
   height: 36px;
   border-radius: 18px;
-  background-color: navy;
+  background-color: #337ab7;
   border: solid 1px transparent;
   color: #fff;
   font-size: 18px;
@@ -96,4 +96,8 @@
 
 .erasebutton {
   float: right;
+}
+
+#assignmentCode{
+  display: none;
 }

@@ -88,3 +88,7 @@ if(assignments != null) {
   }
 }
 }
+
+function showCodeForAssignment() {
+  assignmentCode.style.display = "block";
+}
