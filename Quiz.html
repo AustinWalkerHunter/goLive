@@ -121,7 +121,8 @@
         </div>
 
         <div id ="q4" class="text-center">
-            <h3>Question 4: Check all true statements</h3>
+            <h3>Question 4:</h3>
+            <p>Check all the true statements...</p>
             <label>Web browsers translate JavaScript code</label>&nbsp<input type="checkbox" id="A1" value="Checkbox1"  /><br />
             <label>Variable types are not required to be declared in JS</label>&nbsp<input type="checkbox" id="A2" value="checkbox2"  /><br />
             <label>JavaScript is object oriented language</label>&nbsp<input type="checkbox" id="A3" value="checkbox3"  /><br />
@@ -129,24 +130,48 @@
             <button type="submit"  onclick="checkQ4()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal4">Submit</button>
             <!-- Modal -->
             <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h4 class="modal-title"><span id="q4Answer"></span></h4>
-                            </div>
-                            <div class="modal-body">
-                                <span id="q4Response"></span>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="submit"  onclick="question4()" class="btn-lg btn-primary" data-dismiss="modal">Next</button>
-                            </div>
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title"><span id="q4Answer"></span></h4>
+                        </div>
+                        <div class="modal-body">
+                            <span id="q4Response"></span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit"  onclick="question4()" class="btn-lg btn-primary" data-dismiss="modal">Next</button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div id ="q5" class="text-center">
+            <h3>Question 5:</h3>
+            <p>Are there any Questions??</p>
+            <input type="radio" name="group1"><label>&nbsp Yes</label>&nbsp
+            <input type="radio" name="group1"><label>&nbsp No </label><br><br>
+            <button type="submit"  onclick="checkQ5()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal5">Submit</button>
+            <!-- Modal -->
+            <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title"><span id="q5Answer"></span></h4>
+                        </div>
+                        <div class="modal-body">
+                            <span id="q5Response"></span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit"  onclick="question5()" class="btn-lg btn-primary" data-dismiss="modal">Finish!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="finished" class="text-center congratsTitle">
             <p class="congratsTitle">Congratulations <label><span id="player"></span></label>, you Finished!</p><br>
-            <p class="scoreTitle">Final Score = <label><span id="finalScore"></span></label> out of 45.</p><br>
+            <p class="scoreTitle">Final Score = <label><span id="finalScore"></span></label> out of 50.</p><br>
             <p class="scoreTitle">Grade = <label><span id="grade"></span></label></p><br>
             <button type="submit"  onclick="location.reload()" class="btn-lg btn-primary" data-toggle="modal" data-target="#modal3">Restart Quiz</button>
         </div>

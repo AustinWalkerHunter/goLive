@@ -99,12 +99,26 @@ function checkQ4(){
 function question4() {
     done();
     q4.style.display = "none";
+    q5.style.display = "block";
+}
+
+function checkQ5(){
+     score += 5;
+        document.getElementById('modal5').style.backgroundColor = 'rgba(0, 171, 0, 0.42)';
+        document.getElementById('q5Answer').innerHTML = "Correct! +5 Points";
+        document.getElementById('q5Response').innerHTML = "Woohoo!!";
+        document.getElementById('score').innerHTML = score;
+
+}
+function question5() {
+    done();
+    q5.style.display = "none";
     finished.style.display = "block";
 }
 
 
 function done() {
-    var total = score/45;
+    var total = score/50;
     document.getElementById('finalScore').innerHTML = score;
 
     if(total == 1){
