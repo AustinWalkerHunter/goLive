@@ -12,30 +12,38 @@
     <script src="calc.js"></script>
     <script src="Quiz.js"></script>
     <link rel="shortcut icon" type="image/png" href="favicon-16x16.png"/>
-    <title>Owls</title>
-
+    <title>JS Intro</title>
 </head>
 
 <body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Home |</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a class="navbar-brand" href="calculator.html">Calculator Example</a></li>
+                <li><a class="navbar-brand" href="NumberGame.html">Random Number Example</a></li>
+                <li><a class="navbar-brand" href="Assignment.html">Assignment Tracker Example</a></li>
+                <li><a class="navbar-brand" href="Quiz.html">JS Quiz</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <div class="main-container">
     <div class="container-fluid bottom-space">
-        <nav class="navbar container-fluid">
-            <a class="navbar-brand" href="index.html">Home |</a>
-            <a class="navbar-brand" href="calculator.html">Calculator Example</a>
-            <a class="navbar-brand" href="NumberGame.html">Random Number Example</a>
-            <a class="navbar-brand" href="Assignment.html">Assignment Tracker Example</a>
-            <!--                <a class="navbar-brand" href="Example4.html">Example 4!</a>-->
-            <a class="navbar-brand" href="Quiz.html">JS Quiz</a>
-        </nav>
         <div class="text-center">
-            <h1><span><img alt="Picture of an owl." src="owl-clip-art-23.png" class="leftImage"/></span>
-                JavaScript Quiz
-                <span><img alt="Picture of an owl." src="owl-clip-art-23.png" class="rightImage"/></span>
-            </h1>
+            <h1>JavaScript Quiz</h1>
         </div>
     </div>
     <div>
-        <p class="username pull-left">Player: <label><span id="name">Unknown Owl</span></label></p><p id="scoreBoard" class="pull-right scoreBoard">Score = <label><span id="score">0</span></label></p><br>
+        <p class="username pull-left">Player: <label><span id="name">Unknown Human</span></label></p><p id="scoreBoard" class="pull-right scoreBoard">Score = <label><span id="score">0</span></label></p><br>
     </div>
     <div class="container game">
         <div id="intro" class="text-center">
@@ -185,7 +193,7 @@
     </div>
     <footer>
         <div class="text-center">
-            <p> Made by the Owls </p>
+            <p> Made by the Austin Hunter </p>
         </div>
     </footer>
 </div>

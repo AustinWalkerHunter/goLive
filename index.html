@@ -10,26 +10,34 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="calc.js"></script>
     <link rel="shortcut icon" type="image/png" href="favicon-16x16.png"/>
-    <title>Owls</title>
-
+    <title>JS Intro</title>
 </head>
 
 <body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Home |</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a class="navbar-brand" href="calculator.html">Calculator Example</a></li>
+                <li><a class="navbar-brand" href="NumberGame.html">Random Number Example</a></li>
+                <li><a class="navbar-brand" href="Assignment.html">Assignment Tracker Example</a></li>
+                <li><a class="navbar-brand" href="Quiz.html">JS Quiz</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <div class="main-container">
         <div class="container-fluid">
-            <nav class="navbar container-fluid">
-                <a class="navbar-brand" href="index.html">Home |</a>
-                <a class="navbar-brand" href="calculator.html">Calculator Example</a>
-                <a class="navbar-brand" href="NumberGame.html">Random Number Example</a>
-                <a class="navbar-brand" href="Assignment.html">Assignment Tracker Example</a>
-<!--                <a class="navbar-brand" href="Example4.html">Example 4!</a>-->
-                <a class="navbar-brand" href="Quiz.html">JS Quiz</a>
-            </nav>
             <div class="text-center">
-                <h1><span><img alt="Picture of an owl." src="owl-clip-art-23.png" class="leftImage"/></span>
-                    Owls using JavaScript
-                    <span><img alt="Picture of an owl." src="owl-clip-art-23.png" class="rightImage"/></span>
-                </h1>
+               <h1>Introduction to JavaScript</h1>
             </div>
         </div>
         <hr/>
@@ -101,7 +109,7 @@
                 </li>
                 <li>
                     <p>Another basic example of JavaScript is the JavaScript Event. Here is an example called <span class="scriptExample">onClick();</span></p>
-                    <p>Click this button to see what it does. <button class="btn btn-primary" onclick="alert('Hello there, this is an alert!')">Click me!</button></p>
+                    <p>Click this button to see what it does. <button onclick="alert('Hello there, this is an alert!')">Click me!</button></p>
                     <p>The code for my the button above looks like this: <span class="scriptExample">&lt;button onclick="alert('Hello, World!')"&gt;Click me!&lt;/button&gt;</span>
                     <p>The event only fires when a user clicks on the button. To build this, create a new html file and copy and paste the code from
                     above into that file. Open your new html file in a browser that has JavaScript enabled and you should have a functioning alert
@@ -169,7 +177,7 @@
         </div>
         <footer>
             <div class="text-center">
-                <p> Made by the Owls </p>
+                <p> Made by the Austin Hunter </p>
             </div>
         </footer>
     </div>

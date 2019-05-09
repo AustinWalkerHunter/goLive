@@ -22,6 +22,9 @@ body {
 .navbar {
     background: lightblue;
 }
+.navbar-inverse .navbar-brand{
+    color: black !important;
+}
 body {
     background: aliceblue;
 }

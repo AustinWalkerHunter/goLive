@@ -1,4 +1,4 @@
-var user = "Unknown Owl";
+var user = "Unknown Human";
 var score = 0;
 
 function start() {
